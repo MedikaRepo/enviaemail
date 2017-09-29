@@ -29,7 +29,7 @@ public class EnviaEmail //implements AcaoRotinaJava
             props.put("mail.smtp.auth", "true");
             props.put("mail.smtp.port", "465");
 
-            //teste
+            //teste 
             
             Session session = Session.getDefaultInstance(props,
                         new javax.mail.Authenticator() {
